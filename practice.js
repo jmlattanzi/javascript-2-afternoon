@@ -15,6 +15,12 @@
 */
 
 //Code here
+let me = {
+  name: 'Jonathan',
+  age: 22,
+}
+
+alert(me.name)
 
 
 
@@ -26,7 +32,14 @@
 */
 
 //Code here
-
+let favoriteThings = {
+  band: 'Warbringer',
+  food: 'Almonds',
+  person: 'n/a',
+  book: 'Masters of Doom',
+  movie: 'Blade Runner',
+  holiday: 'Christmas'
+}
 
 
 /*
@@ -34,6 +47,8 @@
 */
 
 //Code here
+favoriteThings.car = '1971 Chevelle SS'
+favoriteThings.brand = 'Adidas'
 
 
 
@@ -42,6 +57,8 @@
 */
 
 //Code here
+favoriteThings['food'] = 'Chicken Nuggets'
+favoriteThings['book'] = 'Harry Potter'
 
 
 
@@ -57,6 +74,10 @@
 
 //Code here
 
+let backPack = {}
+let item = 'firstPocket'
+backPack[item] = 'chapstick'
+
 
 
 /*
@@ -64,6 +85,7 @@
 */
 
 //Code here
+alert(backPack)
 
 
 
@@ -74,6 +96,7 @@ Instead, console.log your whole backPack object and then check out the console.
 */
 
 //Code here
+console.log(backPack)
 
 
 
@@ -97,7 +120,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2['name'] = 'Tyler S. McGinnis'
+user2['email'] = 'tyler.mcginnis@devmounta.in'
 
 
 
